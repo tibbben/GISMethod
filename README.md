@@ -1,8 +1,8 @@
-# Cadastral Mapping in Perú:
+# GIS Method:
 
-This repository contains a short presentation for the History of Cartography and Cartographies of History in Peru sessions at the LASA 2017 annual congress.  
+This repository contains a short presentation for thinkking aboiut GIS and method.  
 
-If you are not looking for the repository, but simply the presentation, please see the [hosted version](http://tibbben.github.io/lasa2017/). 
+If you are not looking for the repository, but simply the presentation, please see the [hosted version](https://tibbben.github.io/GISMethod/). 
 
 ---
 
