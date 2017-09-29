@@ -51,6 +51,9 @@
 							Palomino, Diego (1549). Traça de la conquista del capitán Diego Palomino: [de las <i>Relaciónes Geográficas</i>, Provincia de Chuquimayo, Perú]<br>
 							<span class="fragment" data-fragment-index="1">Kain, R. J. P., & Baigent, E. (1992). <i>The Cadastral Map in the Service of the State: A History of Property Mapping.</i> Chicago: University of Chicago Press.</span>
 						</p>
+						<p class="reference fragment fade-out" data-fragment-index="0" style="position: absolute; top: 200px; left: 30px; background-color: rgba(255,255,255,0.9); padding: 42px; font-size: 100% !important;">
+							You can follow along at:<br><a href="http://bit.ly/2xC0zsE">http://bit.ly/2xC0zsE</a><br><a href="https://tibbben.github.io/GISMethod/">https://tibbben.github.io/GISMethod/</a>
+						</p>
 					</section>
 					<section data-background-image="common/assets/lasFlores-01-smithsonianSketch.jpg">
 						<div style="background-color: rgba(255,255,255,0.7); width: 50%; padding: 23px;" class="center fragment fade-out" data-fragment-index="2">
@@ -350,6 +353,16 @@
 							<li>geo-fencing (buffers)
 						</ul>
 					</section>
+					<section>
+						<h3>Common geospatial questions</h3>
+						<h4>before you start remember</h4>
+						<ul style="width: 40%;">
+							<li>scope of question (is it doable)
+							<li>scale and type of output (design question)
+							<li>visualization (print, online, etc)
+							<li>how will you get the data!!!
+						</ul>
+					</section>
 				</section>
 				
 				<section>
@@ -358,7 +371,7 @@
 						<ul style="width: 40%;">
 							<li>Tool set
 								<ul style="font-size: 80%;">
-									<li>collection of software progrrams
+									<li>collection of software programs
 									<li>in some cases referred to as a stack
 								</ul>							
 							<li style="margin-top: 23px">Data model
@@ -374,15 +387,12 @@
 				
 				<section>
 					<section>
-						<h3>Common GIS Assemblages</h3>
+						<h3>Common Desktop GIS Assemblages</h3>
 						<h4>Environmental Systems Research Institute (ESRI)</h4>
 						<ul style="width: 50%;">
 							<li>Tool set
 								<ul style="font-size: 80%;">
 									<li>ArcGIS Desktop
-									<li>ArcGIS Online
-									<li>ESRI Storymap
-									<li>ArcGIS for Server
 									<li>ArcGIS Pro *NEW*
 								</ul>							
 							<li style="margin-top: 23px">Relational data model
@@ -396,6 +406,20 @@
 								<ul style="font-size: 80%;">
 									<li>python
 								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common Desktop GIS Assemblages</h3>
+						<h4>Environmental Systems Research Institute (ESRI)</h4>
+						<ul style="width: 50%;">
+							<li>University of Miami Resources
+								<ul style="font-size: 80%;">
+									<li>for an account contact Abraham Parrish (GIS Librarian): <a href="mailto:aparrish@miami.edu">aparrish@miami.edu</a>
+									<li>for library GIS resources see <a href="http://sp.library.miami.edu/subjects/gis">http://sp.library.miami.edu/subjects/gis</a>
+									<li>in the Geography department contact Chris Hanson (lab manager) <a href="mailto:hansonc@miami.edu">hansonc@miami.edu</a>
+									<li>for ArcGIS Pro contact Maria L. Estevanez (RSMAS) <a href="mailto:mestevanez@rsmas.miami.edu">mestevanez@rsmas.miami.edu</a>
+									<li>for FOSS and advanced GIS contact Timothy Norris (UML/CCS) <href="mailto:tnorris@miami.edu">tnorris@miami.edu</a>
+								</ul>							
 						</ul>
 					</section>
 					<section>
@@ -423,7 +447,56 @@
 					</section>
 					<section>
 						<h3>Common GIS Assemblages</h3>
-						<h4>MapServer (FOSS)</h4>
+						<h4>R (FOSS)</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>R - <a href="https://www.r-project.org/">https://www.r-project.org/</a>
+									<li>packages: maps, ggplot2
+									<ll>leaflet for visualization
+								</ul>							
+							<li style="margin-top: 23px">Relational and Tree data model
+								<ul style="font-size: 80%;">
+									<li>raw text, csv (tables)
+									<li>raw text, json (trees)
+									<li>raw text, grids (raster)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li>R
+								</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Common Web Based GIS Assemblages</h3>
+						<h4>Environmental Systems Research Institute (ESRI)</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>ArcGIS Online
+									<ul>
+										<li><a href="http://scholar.library.miami.edu/hometownmaps/">http://scholar.library.miami.edu/hometownmaps/</a>
+									</ul>
+									<li>ESRI Storymap
+									<li>ArcGIS for Server - for serving data and images
+								</ul>							
+							<li style="margin-top: 23px">Relational data model
+								<ul style="font-size: 80%;">
+									<li>feature services (ArcGIS Online)
+									<li>database servers (SQLServer, posgreSQL)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li><i>not really any</i>
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common Web Based GIS Assemblages</h3>
+						<h4>MapServer (FOSS) - for serving data and images</h4>
 						<ul style="width: 50%;">
 							<li>Tool set
 								<ul style="font-size: 80%;">
@@ -443,6 +516,57 @@
 								</ul>
 						</ul>
 					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Common Web Based Visualization</h3>
+						<h4>Google Earth</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>Google Earth - <a href="https://www.google.com/earth/">https://www.google.com/earth/</a>
+								</ul>							
+							<li style="margin-top: 23px">table data model
+								<ul style="font-size: 80%;">
+									<li>Keyhole Markup Language (KML)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li><i>not really any</i>
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common Web Based GIS Assemblages</h3>
+						<h4>Leaflet - creating "mashups"</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>Leaflet - <a href="http://leafletjs.com/">http://leafletjs.com/</a>
+									<li>HTML - javascript - CSS
+								</ul>							
+							<li style="margin-top: 23px">tree and raster only
+								<ul style="font-size: 80%;">
+									<li>json, kml (trees)
+									<li>jpg, png, etc (raster)
+								</ul>
+							<li style="margin-top: 23px">Scripting/programming languages
+								<ul style="font-size: 80%;">
+									<li>javascript (front end)
+									<li>anything (backend)
+								</ul>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<h3>For Ideas</h3>
+					<ul style="width: 17%;">
+						<li><a href="http://scimaps.org/">Places and Spaces: mapping science</a>
+						<li><a href="http://www.maproomblog.com/">The Map Room (blog)</a>
+						<li><a href="https://www.wired.com/category/maplab/">WIRED Map Lab</A>		
+					</ul>
 				</section>
 				
             </div>
