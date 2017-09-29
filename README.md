@@ -2,7 +2,7 @@
 
 This repository contains a short presentation for thinkking aboiut GIS and method.  
 
-If you are not looking for the repository, but simply the presentation, please see the [hosted version](http://tibbben.github.io/GISMethod/). 
+If you are not looking for the repository, but simply the presentation, please see the [hosted version](https://tibbben.github.io/GISMethod/). 
 
 ---
 
